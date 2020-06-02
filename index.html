@@ -69,14 +69,23 @@
 
 <section>
 	<h2>Написать нам</h2>
-	<label>
-		<input type="text" name="username" placeholder="Имя Фамилия" required> 
-	</label>
-	<input type="email" name="email" placeholder="email@example.com" required>
-	<textarea rows="3">
-		В свободной форме
-	</textarea>
-	<button type="submit">Отправить</button>
+	<form action="https://echo.htmlacademy.ru/courses" method="post">
+	<p>
+		<label for="writeus-name">Ваше имя:</label>
+		<input id="writeus-name" type="text" name="name" placeholder="Имя Фамилия" required> 
+	</p>
+	<p>
+		<label for="writeus-email">Ваш e-mail:</label>
+		<input id="writeus-email" type="email" name="email" placeholder="email@example.com" required>
+	</p>
+	<p>
+		<label>Текст письма:</label>
+		<textarea name="letter" rows="3" placeholder="В свободной форме"></textarea>
+	</p>
+	<p>
+		<input type="submit" value="Отправить">
+	</p>
+</form>
 </section>
 
 <footer>
