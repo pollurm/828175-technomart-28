@@ -2,14 +2,18 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  	<link rel="stylesheet" type="text/css" href="css/style.css" >
 	<title>Техномарт</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	
 </head>
 
 <body>
 
-<header>
+<header class="main-header">
 	<div class="header_nav">
-		<!-- <a>
+		<a class="main-header-logo">
 			<img src="https://via.placeholder.com/150x100" alt="#">
 		</a> -->
 		<a href="#">Поиск</a>
@@ -28,7 +32,7 @@
 		<li><a href="#">Вход</a></li>
 		<li><a href="#">Регистрация</a></li>
 	</ul>
-	<nav>
+	<nav class="main-navigation">
 		<ul>
 			<li><a href="#">Главная</a></li>
 			<li><a href="#">Компания</a></li>
@@ -42,8 +46,8 @@
 </header>
 
 <main>
-	<section>
-		<h2>Компания "Техномарт"</h2>
+	<section class="main-about-company">
+		<h2 class="visually-hidden">Компания "Техномарт"</h2>
 		<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта<br> и строительства не оставит равнодушными любителей сэкономить на<br> гастарбайтерах.</p>
 		<p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со многими транспортными компаниями:</p>
 		<ul>
@@ -54,21 +58,21 @@
 		<a href="#">Подробнее о компании</a>
 	</section>
 
-	<section>
-		<h2>Контакты</h2>
+	<section class="contacts">
+		<h2 class="visually-hidden">Контакты</h2>
 		<p>Вы можете забрать товар сами,<br> заехав в наш офис:</p>
 		<img src="img/content/map.png" width="300px" height="158px" alt="Карта">
 		<a href="">Заблудились? Напишите нам!</a>
 	</section>
 </main>
 
-<section>
-	<h2>Карта</h2>
+<section class="main-map">
+	<h2 class="visually-hidden">Карта</h2>
 	<button></button>
 </section>
 
-<section>
-	<h2>Написать нам</h2>
+<section class="main-write-us">
+	<h2 class="visually-hidden">Написать нам</h2>
 	<form action="https://echo.htmlacademy.ru" method="post">
 	<p>
 		<label for="writeus-name">Ваше имя:</label>
