@@ -135,11 +135,6 @@ header {
 
 
 /* Main */
-
-
-
-
-
 .main-about-company a {
   background-color: var(--basic-red);
 }
@@ -179,14 +174,14 @@ header {
 }
 
 .footer-info {
+  background-color: #293449;
+}
+
+.footer-info p {
   font-family: 'Cuprum', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  background-color: #293449;
-}
-
-.footer-info-yellow {
-  color: var(--special-yellowloght);
+  color: #FFFFFF;
 }
