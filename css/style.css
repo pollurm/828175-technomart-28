@@ -30,7 +30,7 @@ body {
   line-height: 24px;
   font-weight: normal;
   color: #000000;
-  background-color: var(--basic-background);
+  background-color: var(--wight);
 }
 	
 h2 {
@@ -42,6 +42,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 p {
@@ -58,6 +59,40 @@ li  {
   list-style-type: none;
 }
 
+
+/* Header */
+header {
+  background-color: var(--basic-background);
+}
+
+.header-nav {
+  background-color: #293449;
+}
+
+.header-logo {
+  background-color: var(--basic-red);
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.header-search img {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.header-favorites img {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.header-cart img {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.header-order {
+  background-color: #63A63E;
+}
+
 .italic {
   font-family: 'Cuprum', sans-serif;
   font-style: italic;
@@ -66,7 +101,7 @@ li  {
   line-height: 23px;
 }
 
-.main-number {
+.header-number {
   font-family: 'Cuprum', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -75,11 +110,83 @@ li  {
   color: var(--basic-red);
 }
 
-.main-adress {
+.header-address {
   font-family: 'Cuprum', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #32425C;
+}
+
+.header-login {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.header-registration {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.header-navigation {
+  background-color: #32425C;
+}
+
+
+/* Main */
+
+
+
+
+
+.main-about-company a {
+  background-color: var(--basic-red);
+}
+
+.main-list:after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: var(--basic-red);
+}
+
+.main-contacts a{
+  background-color: var(--basic-red);
+}
+
+/* Footer */
+.footer-nav {
+  background-color: #32425C;
+}
+
+.footer-nav p {
+  font-family: 'Cuprum', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F3F7F9;
+}
+
+.footer-logo {
+  background-color: var(--basic-red);
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.footer-yellow {
+  color: var(--special-yellowloght);
+}
+
+.footer-info {
+  font-family: 'Cuprum', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #293449;
+}
+
+.footer-info-yellow {
+  color: var(--special-yellowloght);
 }
