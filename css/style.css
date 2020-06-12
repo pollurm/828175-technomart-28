@@ -17,37 +17,32 @@
   --success: #5FBB2D;
   --warning: #FFBF47;
   --error: #BA2732;
-
-
 }
 
 
-
-
-
-
-
-body {
   /* Global */
 
 body {
-  min-width: 960px;
   margin: 0;
   padding: 0;
   font-family: "Cuprum", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
-  color: var(--basic-white);
+  color: #000000;
   background-color: var(--basic-background);
 }
-	font-family: 'Cuprum', sans-serif;
 	
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-
-
-
+a {
+  text-decoration: none;
+}
 
 p {
 	font-family: 'PT Sans', sans-serif;
@@ -55,4 +50,36 @@ p {
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
+  color: var(--basic-);
+}
+
+
+li  {
+  list-style-type: none;
+}
+
+.italic {
+  font-family: 'Cuprum', sans-serif;
+  font-style: italic;
+  color: var(--basic-red);
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.main-number {
+  font-family: 'Cuprum', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--basic-red);
+}
+
+.main-adress {
+  font-family: 'Cuprum', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425C;
 }
